@@ -1,0 +1,12 @@
+<h3>Mis alumnos</h3>
+
+<ul>
+    <li *ngFor="let estudiante of listaEstudiantes" [ngClass]="estudiante.estaActivo? 'activo':'inactivo'">{{estudiante.nombre}}
+        <button *ngIf="estudiante.estaActivo===false">activar</button>
+        <button *ngIf="estudiante.estaActivo">desactivar</button>
+    </li>
+</ul>
+
+<!-- pipe -->
+<p>{{estudianteActual | json}}</p>
+<!-- el pipe se usa para darle formato al objeto que se quiere renderizar porque sino solo muesta [Object object] -->
