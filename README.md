@@ -1,5 +1,7 @@
 # ListaPinkala
 
+En este repositorio se trabajan las directivas estructurales y de atributo, los cuales hacen que se rendericen con un determinado estilo o determinados datos, dependiendo las condiciones aplicadas.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
 
 ## Development server
